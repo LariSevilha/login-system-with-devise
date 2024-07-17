@@ -8,8 +8,113 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+    
+    <style>
+      .login-form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f9f9f9;
+      }
+    
+      .login-form .field {
+        margin-bottom: 15px;
+      }
+    
+      .login-form .form-label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+      }
+    
+      .login-form .form-input {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+    
+      .login-form .form-checkbox {
+        margin-right: 5px;
+      }
+    
+      .login-form .actions {
+        text-align: center;
+      }
+    
+      .login-form .form-submit {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        background-color: #007bff;
+        color: white;
+        cursor: pointer;
+      }
+    
+      .login-form .form-submit:hover {
+        background-color: #0056b3;
+      } 
+      .centered-links {
+        text-align: center;
+        margin-top: 10px;
+      }
+      
+      .center-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;  
+      }
+      
+      .form-signup {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 15px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+      }
+    
+      .form-signup .form-control {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+    
+      .form-signup .btn-primary {
+        width: 100%;
+      }
+    
+      .centered-links {
+        text-align: center;
+        margin-top: 20px;
+      }
+      
+      .form-container {
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+      }
+    
+      .form-password-reset .form-control {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+      }
+    
+      .form-password-reset .btn-primary {
+        width: 100%;
+      }
+    </style>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
   </head>
-
   <body>
     <%= yield %>
   </body>
