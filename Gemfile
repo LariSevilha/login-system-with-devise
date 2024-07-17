@@ -12,7 +12,13 @@ gem "pg", "~> 1.1"
 
 gem "devise", "~> 4.9", ">= 4.9.2"
 gem "devise-i18n", "~> 1.11"
+gem 'rails_admin'
+gem 'cancancan'
+gem 'bootstrap' 
 
+
+# Use Sass to process CSS
+gem "sassc-rails"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 
