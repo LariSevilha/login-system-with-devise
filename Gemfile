@@ -16,7 +16,6 @@ gem 'rails_admin'
 gem 'cancancan'
 gem 'bootstrap' 
 
-
 # Use Sass to process CSS
 gem "sassc-rails"
 # Use the Puma web server [https://github.com/puma/puma]
@@ -73,3 +72,4 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+gem "cssbundling-rails"
